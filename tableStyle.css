@@ -40,12 +40,12 @@ h6 {
 	clear: both;
 }
 th, td {
-	min-width: 5px;
-	height: 5px;
+	min-width: 50px;
+	height: 25px;
 }
 
 .head-title {
-	width: 768px;
+	width: 1200px;
 	margin: 0 auto;
 	padding: 10px;
 	text-align: right;
@@ -56,7 +56,7 @@ th, td {
 }
 .head-subtitle_wrap {
 	padding: 15px;
-		width: 768px;
+		width: 1200px;
 	margin: 0 auto;
 }
 .table-box table {  /*вот тут изменила - добавила класс*/
@@ -96,8 +96,7 @@ th, td {
 /**/
 /*table-title*/
 .width100 table {
-	width: 768px;
-	margin: 0 auto;
+	width: 1200px;
 }
 .table-title {
 	text-align: center;
@@ -135,7 +134,7 @@ th, td {
     text-align: right;
  }
  .date {
-	 width: 768px;
+	 width: 1200px;
 	 margin: 0 auto;
  }
  .date-wrapper table {
