@@ -68,8 +68,8 @@ h6 {
 .table-box td {
 	border: 1px solid #000;
 }
-.table-box tr,
-.table-box td {
+.box-head .table-box tr,
+.box-head .table-box td {
 	padding: 15px;
 }
 
