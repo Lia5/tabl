@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+body,p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+li {	
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
+.clearfix::before {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.head-title {
+	padding: 10px;
+	text-align: right;
+}
+.head-subtitle {
+	float: right;
+	margin: 10px;
+}
+.head-subtitle_wrap {
+	padding: 15px;
+}
+.table-box table {  /*вот тут изменила - добавила класс*/
+	width: 150px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px;	
+}
+.right-block table {
+	float: right;
+}
+.right-block {
+	float: right;
+}
+.table-box table,
+.table-box th,
+.table-box td {
+	border: 1px solid #000;
+}
+.table-box tr,
+.table-box td {
+	padding: 15px;
+}
+
+
+
+
+
+/**/
+/*table-title*/
+.table-title {
+	text-align: center;
+
+}
+.left-block {
+	float: left;
+}
+.table-title-container table{
+	 border-collapse: collapse;
+	 border: none;
+}
+ .table-title table {
+	 text-align: left;
+ }
+ .row-bottom {
+	 padding-top: 15px;
+ }
+ .row-top {
+	 padding-bottom: 15px;
+ }
+ td.bottom-border {
+	 border-bottom: 1px solid #000;
+ }
