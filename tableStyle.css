@@ -39,6 +39,10 @@ h6 {
 	display: block;
 	clear: both;
 }
+th, td {
+	min-width: 5px;
+	height: 5px;
+}
 
 .head-title {
 	padding: 10px;
@@ -53,9 +57,8 @@ h6 {
 }
 .table-box table {  /*вот тут изменила - добавила класс*/
 	width: 150px;
-    border-collapse: collapse;
-    text-align: center;
-    margin: 10px;	
+  border-collapse: collapse;
+  text-align: center;
 }
 .right-block table {
 	float: right;
@@ -67,6 +70,10 @@ h6 {
 .table-box th,
 .table-box td {
 	border: 1px solid #000;
+}
+.signature th,
+.signature td {
+	border: none;
 }
 .table-box-head tr,
 .table-box-head td {
@@ -84,6 +91,9 @@ h6 {
 
 /**/
 /*table-title*/
+.width100 table {
+	width: 100%;
+}
 .table-title {
 	text-align: center;
 
@@ -104,6 +114,18 @@ h6 {
  .row-top {
 	 padding-bottom: 15px;
  }
- td.bottom-border {
+ .bottom-border {
 	 border-bottom: 1px solid #000;
+ }
+ .signature .bottom-border {
+	 border-bottom: 1px solid #000;
+ }
+ .underline {
+	 border-bottom: 1px solid #000;
+ }
+ .table-box .text-left {
+    text-align: left;
+ }
+ .table-box .text-right {
+    text-align: right;
  }
